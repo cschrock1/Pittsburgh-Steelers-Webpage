@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pittsburgh Steelers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/d/de/Pittsburgh_Steelers_logo.svg" alt="Pittsburgh Steelers logo">
+        <div>
+            <h1>Pittsburgh Steelers</h1>
+            <p>2026 Season</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#facts">Team Facts</a>
+        <a href="#fans">Fans</a>
+    </nav>
+
+    <main>
+        <section id="about" class="intro">
+            <h2>Steel City Football</h2>
+            <p>The Pittsburgh Steelers are known for their black and gold colors, strong defense, and loyal fans.</p>
+        </section>
+
+        <section id="facts">
+            <h2>Team Facts</h2>
+            <div class="facts">
+                <article><h3>Home</h3><p>Acrisure Stadium</p></article>
+                <article><h3>Colors</h3><p>Black and gold</p></article>
+                <article><h3>Super Bowls</h3><p>6 wins</p></article>
+            </div>
+        </section>
+
+        <section id="fans">
+            <h2>Join the Fans</h2>
+            <button id="cheerButton" type="button">Cheer for the Steelers</button>
+            <p id="message"></p>
+
+            <form id="fanForm">
+                <label for="fanName">What is your name?</label>
+                <input id="fanName" name="fanName" type="text" required>
+                <button type="submit">Join the fan list</button>
+            </form>
+            <p id="formMessage"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Here we go, Steelers!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
